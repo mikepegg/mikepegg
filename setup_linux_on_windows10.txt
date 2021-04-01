@@ -1,0 +1,16 @@
+# SETUP LINUX WSL ON WINDOWS 10
+# mikepegg@gmail.com
+# Changes: 01/04/2021 - created
+
+
+
+#awscli - prereqs
+	apt install unzip
+
+#aws cli - install
+	curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+	unzip awscliv2.zip
+	sudo ./aws/install
+	
+#pip - install
+	apt install python3-pip
